@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(241, 234, 234);
+}
+
+.container {
+  width: 80%;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  min-height: 500 px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 16px 0px #0B325E;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: rgb(21, 21, 72);
+}
+
+.search {
+  margin-top: 50px;
+}
+
+.input {
+  width: 70%;
+  height: 30px;
+  border: none;
+  background-color: rgb(241, 234, 234);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  padding-left: 15px;
+}
+
+.btn {
+  height: 30px;
+  color: white;
+  background-color: rgb(72, 72, 157);
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  letter-spacing: 2px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.clearBtn {
+  border: none;
+  color: rgb(234, 98, 98);
+  letter-spacing: 5px;
+  background-color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.list {
+  list-style: none;
+  color: rgb(61, 61, 237);
+  letter-spacing: 2px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.elementList {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 70px 15px 70px;
+}
+
+.listBtn {
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  background-color: white;
+  cursor: pointer;
+  color: rgb(64, 240, 64);
+}
+
+.delBtn {
+  color: red;
+}
+
+.editBtn {
+  color: rgb(125, 125, 239);
+  letter-spacing: 2px;
+
+}
+
+.element {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputEdit {
+  border: none;
+  outline: none;
+  color: rgb(66, 66, 171);
+  font-size: 20px;
+}
